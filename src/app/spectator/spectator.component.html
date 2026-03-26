@@ -1,0 +1,11 @@
+<div class="h-screen bg-black text-white flex flex-col justify-center items-center">
+  <h1 class="text-4xl font-bold mb-10">{{ question }}</h1>
+
+  <div class="grid grid-cols-2 gap-8 text-2xl">
+    @for (answer of answers; track answer) {
+      <div class="bg-gray-800 p-6 rounded text-center">
+        {{ answer }}
+      </div>
+    }
+  </div>
+</div>

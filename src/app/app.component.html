@@ -1,0 +1,13 @@
+<div class="min-h-screen flex flex-col">
+  <!-- Navbar -->
+  <nav class="bg-gray-900 text-white px-6 py-4 flex gap-4">
+    <a routerLink="/animator" class="px-3 py-1 rounded hover:bg-gray-700">Animator</a>
+    <a routerLink="/player" class="px-3 py-1 rounded hover:bg-gray-700">Player</a>
+    <a routerLink="/spectator" class="px-3 py-1 rounded hover:bg-gray-700">Spectator</a>
+  </nav>
+
+  <!-- Routed views -->
+  <div class="flex-1">
+    <router-outlet />
+  </div>
+</div>
